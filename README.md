@@ -22,3 +22,13 @@ The raw directory should contain the following files:
 * departments.csv.zip  
 * order_products__train.csv.zip  
 * products.csv.zip
+
+## Workflow
+
+1. After having all data files in the data/raw directory we must decompress all of them running (from the base directory):
+
+python -m src.data.decompress -i data/raw -o data/raw/decompressed
+
+2. there is an ipython notebook **you are here, creating the first ipython notebook that will do the first data exploration on the databases you got**
+
+
